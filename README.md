@@ -4,7 +4,7 @@ MERN stack
 
 Client side running on PORT || 3000 
 
-Server side running on PORT || 5000
+Server side running on PORT || 8000
 
 Project delpoyed AWS EC2 
 

@@ -4,6 +4,7 @@ const path = require('path');
 const app = express();
  
 app.use(compression());
+require("dotenv").config();
 app.use(express.static(path.join(__dirname, 'build')));
  
 app.get('*', function(req, res) {
